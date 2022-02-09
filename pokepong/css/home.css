@@ -1,0 +1,33 @@
+/* Navigation */
+
+.active {
+    color: var(--mainColorD);
+  }
+
+  
+/* Content */
+
+article {
+    width: 100%;
+    color: var(--grayishD);
+}
+
+img {
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+    border-radius: 20px;
+}
+
+article span {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-info {
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+}

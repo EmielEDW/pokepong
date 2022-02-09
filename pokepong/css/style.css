@@ -1,0 +1,144 @@
+/*
+  Table of contents:
+    1. Main
+    2. Scrolbar
+    3. Navigation
+    4. Footer
+*/
+
+
+/*
+  -+==+- Main -+==+-
+*/
+
+:root {
+  --backgroundColorD: #1A1A1D;
+  --mainColorD: #C3073F;
+  --secondColorD: #950740;
+  --grayishD: #8E8C8C;
+
+  --backgroundColorW: #ffffff;
+  --mainColorW: #00205C;
+  --secondColorW: #003A9F;
+  --grayishW: #404040;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: auto 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: var(--backgroundColorD);
+}
+
+
+
+/*
+  -+==+- Scrolbar -+==+-
+*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--backgroundColorD);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--mainColorD);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+/*
+  -+==+- Navigation -+==+-
+*/
+
+nav {
+    width: 100%;
+    height: 4.8rem;
+    color: var(--mainColorD);
+}
+
+.left-nav {
+    float: left;
+    height: 100%;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.right-nav {
+    float: right;
+    display: flex;
+    color: var(--secondColorD);
+    font-size: 2rem;
+    font-weight: bold;
+    height: 100%;
+}
+
+.right-nav div {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondColorD);
+  position: relative;
+  top: 25%;
+}
+
+/*
+  -+==+- Footer -+==+-
+*/
+
+footer {
+  width: 100%;
+  height: 4.8rem;
+  color: #ffffff;
+  text-align: center;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  border: 1px solid white;
+}
+
+.footer-copy {
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Footer Fix */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 4.8rem; /* height Footer */
+}

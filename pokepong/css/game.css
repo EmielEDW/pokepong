@@ -1,0 +1,38 @@
+body,
+html {
+  background-image: url("../images/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gameCanvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid darkgreen;
+  border-radius: 30px;
+}
+
+footer {
+  border: 0px solid black !important;
+}
+
+.right-nav div {
+  background-color: var(--secondColorD);
+  border-radius: 20px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  height: 80% !important;
+}
+
+nav a {
+  color: #ffffff !important;
+  position: relative !important;
+  top: 20% !important;
+}
+
+.right-nav {
+  margin-right: 1%;
+  margin-top: 1%;
+}

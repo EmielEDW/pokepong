@@ -1,0 +1,178 @@
+/* Navigation */
+
+.active {
+  color: var(--mainColorD);
+}
+
+
+
+/* Info */
+
+article {
+  color: #ffffff;
+  padding: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.article-about {
+  padding-top: 5%;
+  height: 550px;
+  overflow: hidden;
+}
+
+.article-about img {
+  float: left;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.about-uitleg {
+  float: left;
+  width: 60%;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+
+.bron {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--grayishD);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* Collage */
+
+.collage {
+  height: 3250px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+h2 {
+  position: relative;
+  font-size: 52px;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.front {
+  color: #ffffff;
+  top: 60px;
+  left: 4px;
+}
+
+.back {
+  color: var(--mainColorD);
+}
+
+.card {
+  border: 1px solid #ffffff;
+  padding: 2.5%;
+  min-height: 800px;
+}
+
+.cards {
+  margin-top: 150px;
+}
+
+#card1 {
+  width: 32.6%;
+  float: left;
+}
+
+#card2 {
+  width: 32.6%;
+  margin-left: 1%;
+  float: left;
+}
+
+#card3 {
+  width: 32.6%;
+  margin-left: 1%;
+  float: left;
+}
+
+#card4 {
+  width: 32.6%;
+  margin-top: 20px;
+  float: left;
+  clear: both;
+}
+
+#card5 {
+  width: 32.6%;
+  margin-top: 20px;
+  margin-left: 1%;
+  float: left;
+}
+
+#card6 {
+  width: 32.6%;
+  margin-top: 20px;
+  margin-left: 1%;
+  float: left;
+}
+
+#card7 {
+  width: 32.3%;
+  margin-top: 20px;
+  float: left;
+  clear: both;
+}
+
+#card8 {
+  width: 32.3%;
+  margin-left: 1.5%;
+  margin-top: 20px;
+  float: left;
+}
+
+#card9 {
+  width: 32.3%;
+  margin-left: 1%;
+  margin-top: 20px;
+  float: right;
+}
+
+#card10 {
+  width: 100%;
+  margin-top: 20px;
+  float: left;
+  clear: both;
+  min-height: 400px;
+}
+
+h3 {
+  color: #ffffff;
+  position: relative;
+  font-size: 42px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.uitleg-cards {
+  color: var(--grayishD);
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+}
